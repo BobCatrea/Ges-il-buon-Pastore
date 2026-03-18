@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+
+body {
+    background-color: #e8dcc8; /* Carta antica */
+    color: #2a3f4f; /* Ancient dark */
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fdfaf3; /* Leggermente più chiaro per contrasto */
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+img { max-width: 100%; height: auto; border-radius: 4px; margin: 20px 0; }
+h1 { color: #c97b5c; border-bottom: 2px solid #d4af37; }
+blockquote { border-left: 4px solid #d4af37; padding-left: 20px; font-style: italic; color: #555; }
